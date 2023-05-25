@@ -1,0 +1,283 @@
+html{
+    background: url(http://unsplash.com/photos/wkRHXxsZTvc/download?force=true) no-repeat 50% 50% fixed; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Sahitya', cursive, sans-serif;
+}
+
+#home{
+    height: 500px !important;
+}
+
+#portfolio{
+    height: 600px !important;
+}
+#contact{
+    height: 680px !important;
+}
+
+#about, #portfolio, #contact{
+    padding-top: 70px;
+}
+
+#home{
+    height: 100%;
+    width: 100%;   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;   
+}
+
+#about{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: block;    
+}
+
+#portfolio{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 200%;
+    left: 0px;
+    display: block;
+}
+
+#contact{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 320%;
+    left: 0px;
+    display: block;   
+}
+
+.navbar{   
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: dimgray !important;
+    z-index: 100;
+    display: block;   
+}
+
+nav ul{
+    padding-top: 7px;
+}
+
+nav li{
+    float: right;
+}
+
+nav li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: darkgrey;
+    background-color: dimgrey;
+    font-family: 'Sahitya', cursive, sans-serif;
+}
+
+.lg-position{
+    padding-top: 20px !important;
+}
+
+.text-style{
+    font-family: 'Sahitya', cursive, sans-serif;
+    font-weight: 800;
+}
+
+
+.tab-right{
+    float: right;
+    padding-bottom: 10px;
+}
+
+/*Home Page*/
+
+.home-page{
+    padding-top: 150px;
+    font-family: 'Sahitya', cursive, sans-serif;
+    font-weight: 800;
+
+}
+
+.style-name{
+    font-size: 90px;
+    color: gray;
+}
+
+.style-description{
+    font-size: 35px;
+    padding-bottom: 25px;
+    color: darkgrey;
+}
+
+hr{
+    height: 3px !important;
+    background-color:darkgray;
+}
+
+.btn{
+    color: #fff;
+}
+
+.btn{
+    color: #fff !important;
+}
+
+.btn-facebook, 
+.btn-twitter, 
+.btn-linkedin, 
+.btn-github, 
+.btn-freecodecamp {
+    font-size: 1.6em;
+    background-color: dimgrey;
+}
+
+.btnList{
+    padding-top: 30px;
+}
+
+.btn-facebook:hover{
+    background-color: #3B5998;
+}
+
+.btn-twitter:hover{
+    background-color: #00ACEE;
+}
+
+.btn-linkedin:hover{
+    background-color: #007BB6;
+}
+
+.btn-github:hover{
+    background-color: #444444;
+}
+
+.btn-freecodecamp:hover{
+    background-color: #006400;
+}
+
+.block{
+    border: 2px thin solid;
+}
+
+/*About*/
+.about-info{
+    font-size: 22px;
+    color:#000;
+    font-family: 'Sahitya', cursive, sans-serif;
+}
+
+.about-style{
+    border: thin solid;
+    color: darkgrey;
+    opacity: 0.7;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+    border-radius: 0.5%;
+}
+     
+/*Portfolio*/
+
+.portfolio-item{
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+ 
+.portfolio-item:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+/*Contact*/
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Form CSS*/
+.ccform {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.submit{
+    padding-left: 50px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:000000; 
+	float:left;
+	padding:8px;
+	width:8%;
+	text-align:center;
+  padding-top: 15px;
+}
+
+.ccformfield {
+	color:#000000; 
+	background-color: beige;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:grey;
+	color:darkgray;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background-color: darkolivegreen;
+}
+
+/*Footer*/
+
+#footer{
+    position:fixed;
+    height:50px;
+    background-color:dimgray;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.footer-position{
+    font-family: 'Sahitya', cursive, sans-serif;
+    color: darkgray;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
